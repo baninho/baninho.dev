@@ -10,7 +10,7 @@ export function Layout({ user, title, navbar=true, children }
       <title>{title}</title>
       <meta name="description" content="Scoreboard Espresso-Maschine Projekthaus NE" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="/gruene.ico" sizes="any" />
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <link rel="icon" href="/gruene.svg" type="image/svg+xml" />
     </Head>
     {navbar && <Navbar/>}
