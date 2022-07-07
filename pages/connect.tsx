@@ -5,11 +5,10 @@ const Connect: NextPage = () => {
   return (
   <Layout title="Kontakt - Florian Imbt" page="connect">
     <div className="container p-24">
-      <h1 className="font-serif text-green-2 font-bold text-6xl">Florian Imbt</h1>
-      <h2 className="font-sans text-orange-700 font-bold text-5xl italic">Braunschweig</h2>
+      <h1 className="font-serif text-green-1 font-bold text-6xl">Kontakt</h1>
     </div>
     <div className="container px-24">
-      <p className="font-sans text-green-1 text-xl italic">Hier entsteht gerade meine Website. Komm bald wieder!</p>
+      <p className="font-sans text-white text-xl italic">Ihr erreicht mich über die Social Media Accounts in der Navigation oder per E-Mail an <a href="mailot:florianimbt@gmail.com" className="underline" >florianimbt@gmail.com</a></p>
     </div>
   </Layout>  )
 }

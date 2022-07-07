@@ -5,11 +5,10 @@ const Blog: NextPage = () => {
   return (
   <Layout title="Blog - Florian Imbt" page="blog">
     <div className="container p-24">
-      <h1 className="font-serif text-green-2 font-bold text-6xl">Florian Imbt</h1>
-      <h2 className="font-sans text-orange-700 font-bold text-5xl italic">Braunschweig</h2>
+      <h1 className="font-serif text-green-1 font-bold text-6xl">Blog</h1>
     </div>
     <div className="container px-24">
-      <p className="font-sans text-green-1 text-xl italic">Hier entsteht gerade meine Website. Komm bald wieder!</p>
+      <p className="font-sans text-white text-xl italic">Hier werde ich hin und wieder Artikel zu aktuellen Themen, Veranstaltungen und Unfug veröffentlichen.</p>
     </div>
   </Layout>  )
 }
