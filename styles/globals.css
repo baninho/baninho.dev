@@ -16,3 +16,7 @@ body {
   background-image: url("/1F9A0464_dark_blur.jpg");
   color: hsl(0, 0%, 100%);
 }
+
+.navbar-item {
+  @apply relative flex items-center justify-center hover:text-white hover:bg-gray-900 text-2xl font-bold italic
+}

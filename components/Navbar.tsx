@@ -5,7 +5,7 @@ import classNames from 'classnames'
 export function Navbar({ page }: { page: string }) {
   const NavBarItem = ({ label, link, current }: { label: string, link: string, current: boolean }) => {
     const navbarItemClass = classNames({
-      'relative flex items-center justify-center hover:text-white hover:bg-gray-900 text-2xl font-bold italic px-8': true,
+      'navbar-item px-8': true,
       'text-white': current,
     })
 
