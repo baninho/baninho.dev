@@ -2,8 +2,8 @@ import Head from 'next/head'
 import { Footer } from './Footer'
 import { Navbar } from './Navbar'
 
-export function Layout({ user, title, navbar=true, children }
-  : { user?: any, title: string, navbar?: boolean, children: any })
+export function Layout({ user, title, navbar=true, page, children }
+  : { user?: any, title: string, navbar?: boolean, page: string, children: any })
   : JSX.Element {
   return (<>
     <Head>
@@ -13,7 +13,7 @@ export function Layout({ user, title, navbar=true, children }
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <link rel="icon" href="/gruene.svg" type="image/svg+xml" />
     </Head>
-    {navbar && <Navbar/>}
+    {navbar && <Navbar page={page}/>}
     <div className="container">
       <div className="container mx-auto py-16">
         {children}

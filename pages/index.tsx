@@ -3,7 +3,7 @@ import { Layout } from '../components/Layout'
 
 const Home: NextPage = () => {
   return (
-  <Layout title="Home">
+  <Layout title="Home" page="home">
     <div className="container p-24">
       <h1 className="font-serif text-green-2 font-bold text-6xl">Florian Imbt</h1>
       <h2 className="font-sans text-orange-700 font-bold text-5xl italic">Braunschweig</h2>
