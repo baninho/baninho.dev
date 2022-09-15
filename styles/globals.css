@@ -6,11 +6,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: BereitBold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-size: cover;
   background-position: center;
-  background-color: black;
+  background-color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: url("/1F9A0464_dark_blur.jpg");
@@ -18,5 +18,11 @@ body {
 }
 
 .navbar-item {
-  @apply relative flex items-center justify-center hover:text-white hover:bg-gray-900 text-2xl font-bold italic
+  @apply relative flex items-center justify-center hover:text-green-3 text-4xl text-white
 }
+
+@font-face{font-family:BereitBold;font-style:normal;font-weight:400;font-display:fallback;src:local("BereitBold"),local("BereitBold-Gruen"),url(/static/BereitBold-Oblique-c0cf923a96d80efdf8bb3cf4b07ab6ef.woff2) format("woff2"),url(/static/BereitBold-Oblique-c54523aeff1d53ab9acc33653047dd7d.woff) format("woff")}
+@font-face{font-family:PT Sans;src:local("PT Sans Bold"),local("PTSans-Bold"),url(/static/PTSans-Bold-243e47dbe06ff72f0d85496472802b7c.woff2) format("woff2"),url(/static/PTSans-Bold-8755d347a86246624a7f811a3772ab0d.woff) format("woff");font-weight:700;font-style:normal;font-display:fallback}
+@font-face{font-family:PT Sans;src:local("PT Sans Bold Italic"),local("PTSans-BoldItalic"),url(/static/PTSans-BoldItalic-ea51f2730dfaabee1f75df8854fbc289.woff2) format("woff2"),url(/static/PTSans-BoldItalic-c5efef9ed34a6afffb6e8000b7162a21.woff) format("woff");font-weight:700;font-style:italic;font-display:fallback}
+@font-face{font-family:PT Sans;src:local("PT Sans Italic"),local("PTSans-Italic"),url(/static/PTSans-Italic-bf542dd75587531fed8d785220cc9220.woff2) format("woff2"),url(/static/PTSans-Italic-a4f79def8dc0739b197b1217bdd20519.woff) format("woff");font-weight:400;font-style:italic;font-display:fallback}
+@font-face{font-family:PT Sans;src:local("PT Sans"),local("PTSans-Regular"),url(/static/PTSans-Regular-822510285d4e61e3fe62bd7d5b96c588.woff2) format("woff2"),url(/static/PTSans-Regular-32be237e783945d3608b5ed54af06286.woff) format("woff");font-weight:400;font-style:normal;font-display:fallback}

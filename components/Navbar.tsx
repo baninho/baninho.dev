@@ -17,10 +17,10 @@ export function Navbar({ page }: { page: string }) {
   }
 
   return (
-  <div className="fixed top-0 left-0 w-screen h-16 flex flex-row bg-black text-green-2 shadow font-serif">
+  <div className="fixed top-0 left-0 w-screen h-20 flex flex-row bg-green-0 font-bereit">
     <NavBarItem label="Home" link="/" current={page==='home'}/>
     <NavBarItem label="Über mich" link="/me" current={page==='me'}/>
-    <NavBarItem label="Themen" link="/issues" current={page==='issues'}/>
+    <NavBarItem label="Themen" link="/topics" current={page==='issues'}/>
     <NavBarItem label="Blog" link="/blog" current={page==='blog'}/>
     <NavBarItem label="Termine" link="/calendar" current={page==='calendar'}/>
     <NavBarItem label="Kontakt" link="/connect" current={page==='connect'}/>
