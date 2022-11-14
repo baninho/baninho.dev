@@ -9,7 +9,7 @@ const Home: NextPage = () => {
       <h2 className="font-bereit text-white text-6xl">Braunschweig</h2>
     </div>
     <div className="container px-24">
-      <p className="font-sans text-white text-xl">Hier entsteht gerade meine Website. Komm bald wieder!</p>
+      <p className="font-sans text-white text-xl">Hier entsteht gerade meine Website. Komm gerne bald wieder!</p>
     </div>
   </Layout>  )
 }
